@@ -1,0 +1,110 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Open Sans', sans-serif;
+}
+.green{
+	width: 600px;
+	height: 300px;
+	background-color: green;
+	position: relative;
+
+}
+.red{
+	width: 180px;
+	height: 180px;
+	background-color: red;
+	border-radius: 100%;
+	position: absolute;
+	top: 20%;
+	left: 35%;
+	z-index: 1;
+
+}
+.banners .fb{
+	width: 180px;
+	position: fixed;
+	top: 30%;
+	right: -8%;
+	transition: 0.7s;
+}
+.banners .fb:hover{
+	right: 0px;
+	
+}
+.banners .twitter{
+	width: 180px;
+	position: fixed;
+	top: 35%;
+	right: -8%;
+	transition: 0.7s;
+}
+.banners .twitter:hover{
+	right: 0px;
+}
+.banners .youtube{
+	width: 180px;
+	position: fixed;
+	top: 60%;
+	right: -8%;
+	transition: 0.7s;
+}
+.banners .youtube:hover{
+	right: 0px;
+}
+.banners .snp{
+	width: 180px;
+	position: fixed;
+	top: 70%;
+	right: -8%;
+	transition: 0.7s;
+}
+.banners .snp:hover{
+	right: 0px;
+}
+.banners .whats{
+	width: 180px;
+	height: 80px;
+}
+.Social-icons{
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding: 40px 0px;
+}
+.Social-icons li{
+	list-style: none;
+	display: inline-block;
+
+}
+.Social-icons li a{
+	display: block;
+	width: 80px;
+	height: 80px;
+	background-color: #000;
+	border-radius: 100%;
+	line-height: 80px;
+	font-size: 25px;
+	margin: 0px 15px;
+	color: #fff;
+	transition: 1s;
+}
+
+.Social-icons li a:hover{
+	background: transparent;
+	color: #000;
+	border-radius: #000;
+}
+.Social-icons li a:focus{
+	background: transparent;
+	color: #000;
+	border-radius: #000;
+}
+
